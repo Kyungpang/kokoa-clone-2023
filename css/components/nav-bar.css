@@ -14,4 +14,22 @@
 
 .nav__link {
   color: #2f363e;
+  position: relative;
 }
+
+.nav__notification {
+  background-color: tomato;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 500;
+  position: absolute;
+  top: -20px;
+  left: 22px;
+}
+
+/*To-Do : ellipsis에 notificaion 추가하기*/
