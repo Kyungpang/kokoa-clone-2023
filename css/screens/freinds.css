@@ -1,0 +1,17 @@
+#friends-display-link {
+    margin-top: 20px;
+    padding: 15px 0;
+    display: block;
+    text-align: center;
+    background-color: #FAFAFA;
+    font-size: 17px;
+    color: #212121;
+}
+
+#friends-display-link i {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+#friends-display-link .fa-chevron-right {
+    margin-left: 7px;
+}
