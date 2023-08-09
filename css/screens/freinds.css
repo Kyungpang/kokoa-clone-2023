@@ -1,5 +1,6 @@
 #friends-display-link {
     margin-top: 20px;
+    margin-bottom: 10px;
     padding: 15px 0;
     display: block;
     text-align: center;
@@ -14,4 +15,8 @@
 
 #friends-display-link .fa-chevron-right {
     margin-left: 7px;
+}
+
+.frends-screen {
+    padding: 0 var(--horizontal-space);
 }

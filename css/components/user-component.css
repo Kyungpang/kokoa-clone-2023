@@ -11,6 +11,20 @@
     border-radius: 38%;
 }
 
+.user-component__avatar--xl {
+    width: 85px;
+    height: 85px;
+    margin-right: 20px;
+    border-radius: 38%;
+}
+
+.user-component__avatar--sm {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    border-radius: 38%;
+}
+
 .user-component__title {
     font-weight: 600;
     font-size: 22px;
