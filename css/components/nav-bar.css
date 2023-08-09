@@ -15,6 +15,7 @@
 .nav__link {
   color: #2f363e;
   position: relative;
+  
 }
 
 .nav__notification {
@@ -32,4 +33,9 @@
   left: 22px;
 }
 
-/*To-Do : ellipsis에 notificaion 추가하기*/
+.nav__notification--dot {
+  width: 7px;
+  height: 7px;
+  top: -14px;
+  left: 26px;
+}
