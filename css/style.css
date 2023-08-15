@@ -11,6 +11,7 @@
 /* Screens */
 @import "screens/login.css";
 @import "screens/freinds.css";
+@import "screens/chats.css";
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -20,4 +21,8 @@ body {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+.main-screen {
+  padding: 0 var(--horizontal-space);
 }
