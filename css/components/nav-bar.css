@@ -7,6 +7,7 @@
   padding: 20px 55px;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
+
 .nav__list {
   display: flex;
   justify-content: space-between;
@@ -19,23 +20,21 @@
 }
 
 .nav__notification {
+  position: absolute;
+  top: -20px;
+  left: 22px; 
+}
+
+.nav__notification--dot {
   background-color: tomato;
-  width: 25px;
-  height: 25px;
+  width: 7px;
+  height: 7px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
-  font-weight: 500;
   position: absolute;
-  top: -20px;
-  left: 22px;
-}
-
-.nav__notification--dot {
-  width: 7px;
-  height: 7px;
   top: -14px;
   left: 26px;
 }
