@@ -30,4 +30,44 @@
   background-color: #92A4B2;
   padding: 10px 15px;
   border-radius: 20px;
+  margin-bottom: 25px;
+}
+
+.message-row {
+  width: 100%;
+  display: flex;
+}
+
+.message-row img{
+  width: 50px;
+  height: 50px;
+  border-radius: 37%;
+  margin-right: 10px;
+}
+
+.message__author {
+  opacity: 0.8;
+  font-size: 15px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.message__info {
+  display: flex;
+  align-items: flex-end;
+}
+
+.message__bubble {
+  font-size: 18px;
+  font-weight: 500;
+  background-color: white;
+  padding: 15px;
+  border-radius: 18px;
+  border-top-left-radius: 0;
+  margin-right: 8px;
+}
+
+.message__time {
+  opacity: 0.8;
+  font-size: 15px;
 }
