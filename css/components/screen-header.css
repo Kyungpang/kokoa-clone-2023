@@ -1,16 +1,30 @@
 .screen-header {
-    margin-top: 60px;
-    padding: 0 var(--horizontal-space);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  margin-top: 60px;
+  padding: 0 var(--horizontal-space);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .screen-header__title {
-    font-size: 32px;
-    font-weight: 600;
+  font-size: 32px;
+  font-weight: 600;
 }
 
 .screen-header-icons i {
-    margin-left: 30px;
+  margin-left: 30px;
+}
+
+@keyframes rotateCog {
+  from {
+    transform: none ;
+  }
+
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header .fa-gear:hover {
+  animation: rotateCog 1s linear infinite;
 }
