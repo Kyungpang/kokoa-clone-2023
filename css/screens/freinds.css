@@ -1,35 +1,48 @@
 .friends-screen {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 #friends-display-link {
-    margin-top: 20px;
-    padding: 15px 0;
-    display: block;
-    text-align: center;
-    background-color: #FAFAFA;
-    font-size: 17px;
-    color: #212121;
+  margin-top: 20px;
+  padding: 15px 0;
+  display: block;
+  text-align: center;
+  background-color: #FAFAFA;
+  font-size: 17px;
+  color: #212121;
 }
 
 #friends-display-link i {
-    color: rgba(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.3);
 }
 
 #friends-display-link .fa-chevron-right {
-    margin-left: 7px;
+  margin-left: 7px;
 }
 
 .friends-screen__channel {
-    margin-top: 20px;
-    border-top: var(--main-border);
-    padding-top: 15px;
+  margin-top: 20px;
+  border-top: var(--main-border);
+  padding-top: 15px;
 }
 
 .friends-screen__channel__header {
-    margin-bottom: 25px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    opacity: 0.5;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 0.5;
+}
+
+#splash-screen {
+  background-color: var(--yellow);
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 132px;
+  color: #3C1E1E;
 }
